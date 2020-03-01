@@ -1,2 +1,2 @@
-# nimos.github.io
+# nim-os.github.io
 Christophe Simon's Personal Website
