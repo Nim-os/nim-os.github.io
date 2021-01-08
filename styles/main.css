@@ -91,23 +91,31 @@ footer p
     padding-right: 5px;
 }
 
-.project>
+.project
 {
-    display: block;
-    width: 60%;
+    display: inline-block;
+    width: 80%;
 }
 
-.project>:nth-child(even)
+.project div
 {
-    float: right;
+    display: block;
+    background: grey;
+    max-width: 20%;
+    size: 10%;
+}
+
+.project>:nth-of-type(even)
+{
+    text-align: right;
 
     color: blue;
 }
 
-.project>:nth-child(odd)
+.project>:nth-of-type(odd)
 {
-    float: left;
-    
+    text-align: left;
+
     color: red;
 }
 
