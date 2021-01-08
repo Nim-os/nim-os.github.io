@@ -101,13 +101,14 @@ footer p
 {
     display: block;
     background: grey;
-    max-width: 40%;
-    size: 10%;
+    width: 51%;
 }
 
 .project>:nth-of-type(even)
 {
     text-align: right;
+    clear: right;
+    float: right;
 
     color: blue;
 }
@@ -115,8 +116,10 @@ footer p
 .project>:nth-of-type(odd)
 {
     text-align: left;
+    clear: left;
+    float: left;
 
-    color: red;
+    color: teal;
 }
 
 /* Miscellaneous Styling */
