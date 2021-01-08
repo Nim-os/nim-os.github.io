@@ -90,6 +90,16 @@ footer p
     padding-right: 5px;
 }
 
+.projects:nth-child(even)
+{
+    color: blue;
+}
+
+.projects:nth-child(odd)
+{
+    color: red;
+}
+
 /* Miscellaneous Styling */
 
 ul
