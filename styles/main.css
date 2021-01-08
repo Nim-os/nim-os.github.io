@@ -68,7 +68,7 @@ footer
     display: block;
     position: fixed;
     float: right;
-    /*background: darkslategrey;*/
+    background: black;
     text-align: right;
     left: 0;
     bottom: 0;
@@ -101,7 +101,7 @@ footer p
 {
     display: block;
     background: grey;
-    max-width: 20%;
+    max-width: 40%;
     size: 10%;
 }
 
