@@ -91,15 +91,15 @@ footer p
     padding-right: 5px;
 }
 
-.project
+.project>
 {
-    min-height: 100px;
+    display: block;
+    width: 60%;
 }
 
 .project>:nth-child(even)
 {
     float: right;
-    display: block;
 
     color: blue;
 }
@@ -107,7 +107,7 @@ footer p
 .project>:nth-child(odd)
 {
     float: left;
-    display: block;
+    
     color: red;
 }
 
